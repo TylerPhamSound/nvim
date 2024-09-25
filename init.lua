@@ -5,7 +5,14 @@ vim.g.mapleader = " "
 vim.g.maplocalleader = " "
 
 -- Set to true if you have a Nerd Font installed and selected in the terminal
-vim.g.have_nerd_font = false
+vim.g.have_nerd_font = true
+
+-- Sets the background color when using vimroom
+vim.g.vimroom_background = "black"
+
+-- Sets the dimensions of the workspace when using vimroom
+vim.g.vimroom_width = 100
+vim.g.vimroom_sidebar_height = 0
 
 -- [[ Setting options ]]
 -- See `:help vim.opt`
@@ -28,6 +35,9 @@ vim.opt.showmode = false
 --  Remove this option if you want your OS clipboard to remain independent.
 --  See `:help 'clipboard'`
 -- vim.opt.clipboard = "unnamedplus"
+
+-- Set tabstops to 4 (default is 8 as older systems and editors used an 8-space tab stop.)
+vim.opt.tabstop = 4
 
 -- Enable break indent
 vim.opt.breakindent = true
@@ -143,6 +153,7 @@ vim.opt.rtp:prepend(lazypath)
 require("lazy").setup({
 	-- NOTE: Plugins can be added with a link (or for a github repo: 'owner/repo' link).
 	"tpope/vim-sleuth", -- Detect tabstop and shiftwidth automatically
+	"mikewest/vimroom", -- Give neovim a WriteRoom-style focus mode, adding margins to center the text.
 
 	-- NOTE: Plugins can also be added by using a table,
 	-- with the first argument being the link and the following
