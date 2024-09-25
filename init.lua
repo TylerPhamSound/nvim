@@ -91,7 +91,12 @@ vim.g.mapleader = ' '
 vim.g.maplocalleader = ' '
 
 -- Set to true if you have a Nerd Font installed and selected in the terminal
-vim.g.have_nerd_font = false
+vim.g.have_nerd_font = true
+
+-- Vimroom settings
+vim.g.vimroom_background = 'black'
+vim.g.vimroom_width = 100
+vim.g.vimroom_sidebar_height = 0
 
 -- [[ Setting options ]]
 -- See `:help vim.opt`
