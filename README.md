@@ -1,5 +1,3 @@
-# kickstart.nvim
-
 ## My customized fork of the popular kickstart.nvim config.
 
 You can find the original repo at https://github.com/nvim-lua/kickstart.nvim
