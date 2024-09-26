@@ -16,6 +16,8 @@ Matrim uses the [habamax/vim-godot](https://github.com/habamax/vim-godot) plugin
 
 As of writing, this works for Godot 4.3
 
+# Kickstart for neovim
+
 ## Introduction
 
 A starting point for Neovim that is:
