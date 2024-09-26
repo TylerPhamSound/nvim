@@ -5,17 +5,14 @@ You can find the original repo at https://github.com/nvim-lua/kickstart.nvim
 ### Resources I used for my specific configuration
 
 #### Vimroom
-I added Mike West's Vimroom plugin to have a "zen mode":
-https://github.com/mikewest/vimroom
+I added Mike West's [Vimroom](https://github.com/mikewest/vimroom) plugin to have a "zen mode".
 
 #### Matrim Cauthom's "Neovim setup for Godot (GDScript)"
-I also followed Matrim Cauthon's guide to use neovim as the external editor for my Godot Projects:
-https://youtu.be/cLWgjienc_s
+I also followed Matrim Cauthon's [guide to use neovim as the external editor for my Godot Projects](https://youtu.be/cLWgjienc_s).
 
 ^You will also need to change some editor settings in the Godot editor as well for this to work (explained in the video)
 
-Matrim uses the habamax/vim-godot plugin for better indenting support for Godot Scripts:
-https://github.com/habamax/vim-godot
+Matrim uses the [habamax/vim-godot](https://github.com/habamax/vim-godot) plugin for better indenting support for Godot Scripts.
 
 As of writing, this works for Godot 4.3
 
