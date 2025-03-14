@@ -233,6 +233,8 @@ require('lazy').setup({
   'mikewest/vimroom',
   'dracula/vim',
   'mfussenegger/nvim-dap',
+  'lommix/godot.nvim',
+  'ThePrimeagen/vim-be-good',
 
   -- NOTE: Plugins can also be added by using a table,
   -- with the first argument being the link and the following
@@ -257,6 +259,12 @@ require('lazy').setup({
         changedelete = { text = '~' },
       },
     },
+  },
+
+  {
+    'ThePrimeagen/harpoon',
+    branch = 'harpoon2',
+    dependencies = { 'nvim-lua/plenary.nvim' },
   },
 
   -- NOTE: Plugins can also be configured to run Lua code when they are loaded.
