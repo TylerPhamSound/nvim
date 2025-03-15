@@ -16,12 +16,13 @@ return {
     }
   },
   {
+    "mfussenegger/nvim-dap"
+  },
+  {
     "neovim/nvim-lspconfig",
     config = function()
       require 'lspconfig'.lua_ls.setup {}
       require 'lspconfig'.csharp_ls.setup {}
-      -- require 'lspconfig'.omnisharp.setup {}
-      -- require 'lspconfig'.omnisharp_mono.setup {}
       require 'lspconfig'.gdscript.setup {}
       require 'lspconfig'.gdshader_lsp.setup {}
       local wk = require('which-key')
