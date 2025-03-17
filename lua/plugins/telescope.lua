@@ -20,6 +20,7 @@ return {
       wk.add({
         { "<leader>t",  group = "Telescope" },
         { "<leader>tf", require("telescope.builtin").find_files,     desc = "Find files",          mode = "n" },
+        { "<leader>th", require("telescope.builtin").help_tags,     desc = "Find help",          mode = "n" },
         { "<leader>tr", require("telescope.builtin").lsp_references, desc = "List LSP references", mode = "n" },
         { "<leader>e",  group = "Edit" },
         {
