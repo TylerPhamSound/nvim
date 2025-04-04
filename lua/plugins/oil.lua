@@ -23,7 +23,10 @@ return {
     -- Lazy loading is not recommended because it is very tricky to make it work correctly in all situations.
     lazy = false,
     keys = {
-      { "<leader>o", "<cmd>Oil --float<cr>", desc = "Oil (File Explorer)" },
+      -- { "<leader>o",  group = "Oil" }, -- Group names don't show up for me unless defined in which-key.lua
+      { "<leader>of", "<cmd>Oil --float<cr>", desc = "Oil (File Explorer)" },
+      { "<leader>on", "<cmd>Oil --float /home/tyler/.config/nvim/<cr>", desc = "Oil (Neovim Config)"},
+      { "<leader>oo", "<cmd>Oil --float /home/tyler/Documents/Neorg/<cr>", desc = "Oil (Neorg)"},
     },
   }
 }
