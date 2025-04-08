@@ -27,6 +27,7 @@ return {
       { "<leader>of", "<cmd>Oil --float<cr>", desc = "Oil (File Explorer)" },
       { "<leader>on", "<cmd>Oil --float /home/tyler/.config/nvim/<cr>", desc = "Oil (Neovim Config)"},
       { "<leader>oo", "<cmd>Oil --float /home/tyler/Documents/Neorg/<cr>", desc = "Oil (Neorg)"},
+      { "<leader>ot", "<cmd>Oil --float /home/tyler/.config/tmux/<cr>", desc = "Oil (Tmux Config)"},
     },
   }
 }
