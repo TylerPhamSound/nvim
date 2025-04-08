@@ -25,6 +25,7 @@ return {
     keys = {
       -- { "<leader>o",  group = "Oil" }, -- Group names don't show up for me unless defined in which-key.lua
       { "<leader>of", "<cmd>Oil --float<cr>", desc = "Oil (File Explorer)" },
+      { "<leader>og", "<cmd>Oil --float /home/tyler/.config/ghostty/<cr>", desc = "Oil (Ghostty Config)"},
       { "<leader>on", "<cmd>Oil --float /home/tyler/.config/nvim/<cr>", desc = "Oil (Neovim Config)"},
       { "<leader>oo", "<cmd>Oil --float /home/tyler/Documents/Neorg/<cr>", desc = "Oil (Neorg)"},
       { "<leader>ot", "<cmd>Oil --float /home/tyler/.config/tmux/<cr>", desc = "Oil (Tmux Config)"},
