@@ -7,12 +7,12 @@ return {
       columns = {
         "icon",
         -- "permissions",
-        "size",
+        -- "size",
         "mtime",
       },
       delete_to_trash = true,
       float = {
-        max_width = 0.5,
+        max_width = 0.75,
         max_height = 0.75,
         border = "rounded",
       }
