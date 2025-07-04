@@ -12,6 +12,7 @@ return {
           signs = { add = '+', change = '~', delete = '-' },
         },
       })
+
       require('mini.icons').setup()
       require('mini.indentscope').setup()
       require('mini.operators').setup()

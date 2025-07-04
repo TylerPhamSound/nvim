@@ -8,13 +8,21 @@ return {
   --     vim.cmd([[colorscheme tokyonight-night]])
   --   end,
   -- }
+  -- {
+  --   "ellisonleao/gruvbox.nvim",
+  --   lazy = false,
+  --   priority = 1000,
+  --   config = function ()
+  --     vim.cmd([[colorscheme gruvbox]])
+  --   end,
+  --   opts = {},
+  -- }
   {
-    "ellisonleao/gruvbox.nvim",
-    lazy = false,
+    "catppuccin/nvim",
+    name = "catppuccin",
     priority = 1000,
     config = function ()
-      vim.cmd([[colorscheme gruvbox]])
+      vim.cmd([[colorscheme catppuccin-macchiato]])
     end,
-    opts = {},
   }
 }

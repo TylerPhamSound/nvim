@@ -20,19 +20,19 @@ return {
       ["core.export"] = {},
       ["core.export.markdown"] = {},
       -- ["core.latex.renderer"] = {},
-      ["core.presenter"] = {
-        config = {
-          zen_mode = "zen-mode",
-        }
-      },
+      -- ["core.presenter"] = {
+      --   config = {
+      --     zen_mode = "zen-mode",
+      --   }
+      -- },
       -- ["core.summary"] = {},
       -- ["core.text-objects"] = {},
     }
   },
-  keys = {
-    { "<leader>n>", "<Plug>(neorg.presenter.next-page)",     desc = "Neorg presenter next-page" },
-    { "<leader>n<", "<Plug>(neorg.presenter.previous-page)", desc = "Neorg presenter previous-page" },
-    { "<leader>ns", "<cmd>Neorg presenter start<cr>",        desc = "Neorg presenter start" },
-    { "<leader>nc", "<Plug>(neorg.presenter.close)",         desc = "Neorg presenter close" },
-  },
+  -- keys = {
+  --   { "<leader>n>", "<Plug>(neorg.presenter.next-page)",     desc = "Neorg presenter next-page" },
+  --   { "<leader>n<", "<Plug>(neorg.presenter.previous-page)", desc = "Neorg presenter previous-page" },
+  --   { "<leader>ns", "<cmd>Neorg presenter start<cr>",        desc = "Neorg presenter start" },
+  --   { "<leader>nc", "<Plug>(neorg.presenter.close)",         desc = "Neorg presenter close" },
+  -- },
 }

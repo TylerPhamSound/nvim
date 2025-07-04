@@ -5,6 +5,9 @@ return {
       -- your configuration comes here
       -- or leave it empty to use the default settings
       -- refer to the configuration section below
+      window = {
+        width = 80,
+      },
     },
     keys = {
       { "<leader>z", "<cmd>ZenMode<cr>", desc = "ZenMode" },
