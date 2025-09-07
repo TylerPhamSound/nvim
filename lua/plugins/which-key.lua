@@ -7,6 +7,7 @@ return {
       -- or leave it empty to use the default settings
       -- refer to the configuration section below
       spec = {
+        { "<leader>b", "<cmd>Floaterminal<cr>", desc = "Toggle/Spawn Floaterminal", mode = "n" },
         { "<leader>n", group = "Neorg" },
         { "<leader>o", group = "Oil" },
         { "<leader>w", proxy = "<c-w>",    group = "Windows" },
