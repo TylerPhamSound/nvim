@@ -5,3 +5,4 @@ vim.opt.softtabstop = 4
 vim.opt.expandtab = false
 vim.opt.number = true
 vim.opt.relativenumber = true
+vim.opt.conceallevel = 2
